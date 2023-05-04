@@ -23,7 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:hint="@string/enter_something" />
-    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textViewDisplay"
