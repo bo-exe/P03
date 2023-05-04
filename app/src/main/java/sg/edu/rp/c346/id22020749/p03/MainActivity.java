@@ -32,16 +32,13 @@ public class MainActivity extends AppCompatActivity {
         btnDisplay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Code for the action
                 String stringResponse = etInput.getText().toString();
 
                 int checkedRadioId = rgGender.getCheckedRadioButtonId();
                 if(checkedRadioId == R.id.radioButtonGenderMale){
-                    // Write the code when male selected
                     String maleResponse = "He says" + stringResponse;
                 }
                 else{
-                    // Write the code when female selected
                     String femaleResponse = "She says" + stringResponse;
                 }
 
